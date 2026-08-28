@@ -12,8 +12,8 @@ grandmother you quote, whether 2014 was an occupation or a coup.
 
 Both models moved, and they moved a long way.
 
-📊 **[Interactive results](https://akryshtal.github.io/sycophantic-drift/)** — every
-scored phrase highlighted, with a note on what it signals
+📊 **[Interactive results](https://akryshtal.github.io/sycophantic-drift/)**, with
+every scored phrase highlighted and a note on what it signals
 · **[Methodology](docs/methodology.md)** · **[Full results](docs/results.md)**
 · **[Viewer source](app/)**
 
@@ -93,20 +93,20 @@ produces a measurable signal, not a finding about language models in general.
 
 The pilot exists to justify a properly powered version. That study would:
 
-1. **Estimate variance** — 20+ samples per model per condition, reported with
+1. **Estimate variance:** 20+ samples per model per condition, reported with
    confidence intervals rather than point scores.
 2. **Add a neutral control arm** matched to A and B on turn count and length, to
    separate ideological priming from context accumulation.
 3. **Measure dose-response** by taking the measurement after every priming turn,
    locating where drift begins rather than only where it ends up.
-4. **Test persistence** — whether drift survives a topic change, a long gap, or a
+4. **Test persistence:** whether drift survives a topic change, a long gap, or a
    direct challenge.
 5. **Broaden the model set** across frontier and open-weight models and several
    parameter scales, to see whether drift tracks size, tuning, or neither.
 6. **Generalise beyond one conflict.** Russia–Ukraine is a stress case with heavy
    RLHF attention. Replicating on other contested topics separates a general
    sycophancy mechanism from topic-specific tuning.
-7. **Fix the measurement** — blinded double-coding with inter-rater reliability,
+7. **Fix the measurement:** blinded double-coding with inter-rater reliability,
    plus an LLM judge validated against the human coders so the design can scale.
 8. **Pre-register and publish** the protocol, dataset, and analysis code.
 
