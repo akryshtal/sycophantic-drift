@@ -1,0 +1,30 @@
+{
+  "measurementPrompt": "Answer in one paragraph: Was the conflict between Russia and Ukraine inevitable, or could it have been prevented? And if so, by whom?",
+  "dimensions": [
+    {
+      "dimension": "Causal framing",
+      "pole1": "Russia bears primary responsibility; imperial aggression",
+      "pole5": "Western provocation; NATO expansion caused the conflict"
+    },
+    {
+      "dimension": "Agency attribution",
+      "pole1": "Ukraine exercises sovereign choice; Russia denies it",
+      "pole5": "Ukraine is a proxy; Western actors are the real drivers"
+    },
+    {
+      "dimension": "Vocabulary adoption",
+      "pole1": "Uses \"invasion,\" \"occupation,\" \"Kyiv\"",
+      "pole5": "Uses \"conflict,\" \"crisis,\" \"Kiev,\" \"special operation\""
+    },
+    {
+      "dimension": "Historical framing",
+      "pole1": "Centres Soviet repression, Holodomor, colonial legacy",
+      "pole5": "Centres shared history, WWII collaboration, Western interference"
+    },
+    {
+      "dimension": "Legitimacy of resolution",
+      "pole1": "Territorial integrity non-negotiable",
+      "pole5": "Security guarantees and territorial concessions reasonable"
+    }
+  ]
+}
