@@ -58,6 +58,13 @@ src/index.css       page reset
 It was ported from a Claude artifact, so it is deliberately one self-contained file;
 splitting the data out is the obvious first refactor if the dataset grows.
 
+## Deploying
+
+`.github/workflows/deploy.yml` builds on every push to `main` and publishes `dist/`
+to GitHub Pages. It needs Pages set to the **GitHub Actions** source once, under
+Settings → Pages. The `base: "./"` in `vite.config.js` keeps asset paths relative,
+so the build works at the project-site subpath without further configuration.
+
 ## Credits
 
 By [Andrii Kryshtal](https://www.linkedin.com/in/andrii-kryshtal-522596a5/).
